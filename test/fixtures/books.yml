@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pages: 1
+  author: MyString
+  title: MyString
+  withdraw: 2022-03-29
+
+two:
+  pages: 1
+  author: MyString
+  title: MyString
+  withdraw: 2022-03-29
