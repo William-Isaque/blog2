@@ -18,10 +18,9 @@
   </thead>
   <tbody>
   <% @books.each do |book| %>
-    <tr id="<%= dom_id book %>">
+    <tr  id="<%= dom_id book %>">
       <%= render book %>
-        <%= link_to "Show this book", book %>
-     
+      
     </tr>
   <% end %>
   </tbody>
