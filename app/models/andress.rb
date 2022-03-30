@@ -1,0 +1,2 @@
+class Andress < ApplicationRecord
+end

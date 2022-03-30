@@ -1,14 +1,15 @@
+ 
+<div class="container-fluid" >
+  <div class="row text-center bg-bg-primary align-items-center  justify-content-center bg-dark" style="height:100vh"> 
+    <div class="w-auto  border border-5 my-4 border-light py-2" style="height:max-content" >
+      <h1 class="text-light">New book</h1>
 
-<div class="container">
-<div align="center"class="row bg-dark" > 
-<h1 class="text-light">New book</h1>
+      <%= render "form", book: @book %>
 
-<%= render "form", book: @book %>
+      <br>
 
-<br>
-
-<div>
-  <%= link_to "Back to books", books_path %>
-</div>
-</div>
+    <div>
+      <%= link_to "Back to books", books_path %>
+   </div>
+  </div>
 </div>
